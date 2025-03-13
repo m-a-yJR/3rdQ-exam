@@ -1,0 +1,235 @@
+nav ul{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin: -9px;
+    padding: 1px;
+    position: relative;
+    justify-content: flex-end;
+    z-index: 5;
+}
+nav ul .ll a{
+    display: flex;
+    justify-self: flex-start;
+    font-weight: 500;
+    font-size: 18px; 
+    padding-right: 880px;
+    color: white; 
+    text-decoration: none;
+    padding-top: 25px;
+}
+nav ul .ll a{
+    color: rgb(0, 170, 248);
+    text-decoration: none;
+    animation-name: acat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+nav ul .ll a:hover{
+    animation-play-state: running;
+}
+nav ul li{   
+    padding: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none; 
+    animation-name: adog;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; 
+}
+@keyframes adog{
+    0%{
+        color: white;
+        font-size: 18px;
+    }
+    25%{
+        color: red;
+        font-size: 25px;
+    }
+    50%{
+        color: red;
+        font-size: 25px;
+    }
+    75%{
+        color: rgb(255,185,185);
+        font-size: 18px;
+    }
+    100%{
+        color: white;
+        font-size: 18px;
+    }
+}
+nav ul li a:hover{
+    text-decoration: none;
+    animation-name: adog;
+    animation-duration: 2s;
+    animation-play-state: running;
+}
+@keyframes acat{
+    0%{
+        color: rgb(0, 170, 248);
+        font-size: 18px;
+    }
+    25%{
+        color: rgb(94, 0, 245);
+        font-size: 25px;
+    }
+    50%{
+        color: rgb(94, 0, 245);
+        font-size: 25px;
+    }
+    75%{
+        color: rgb(32, 103, 255);
+        font-size: 18px;
+    }
+    100%{
+        color: rgb(0, 170, 248);
+        font-size: 18px;
+    }
+}
+.heropic .htext h2{
+    color: rgb(214, 214, 214);
+    z-index: 3;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-between;
+    top: 30%;
+    position: absolute;
+    padding-left: 60px;
+}
+.heropic img{
+    width: 1266.4px;
+    margin: -8px;
+    position: relative;
+    height: auto;
+    z-index: 2;
+}
+.me img{
+    position: absolute;
+    width: 400px;
+    z-index: 5;
+    padding-left: 650px;
+    top: 347px;
+}
+.abt nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin: -8px;
+    padding-top: 80px;
+}    
+.abt nav li{
+    display: flex;
+    font-size: 33px;
+    color: white;
+    padding-left: 550px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.abt nav li a{
+    color: white;
+    text-decoration: none;
+    animation-name: apig;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.abt nav li a:hover{
+   animation-play-state: running;
+}
+@keyframes apig{
+    0%{
+        color: white;
+        font-size: 33px;
+    }
+    25%{
+        color: red;
+        font-size: 40px;
+        
+        padding-left: 5px;
+    }
+    50%{
+        color: red;
+        font-size: 40px;
+        padding-left: 8px;
+        
+    }
+    75%{
+        color: rgb(255, 185, 185);
+        font-size: 33px;
+        padding-left: 5px;
+    }
+    100%{
+        color: white;
+        font-size: 33px;
+        padding-left: 0px;
+    }
+}
+body{
+    cursor: pointer;
+}
+.abt{
+    background-color: rgb(6, 0, 32);
+    padding: 65px;
+    margin: -8px;
+}
+.abt .deph{
+    background-color: rgb(59, 59, 59);
+    border: solid;
+    width: 1259px;
+    margin: -8px;
+}
+.abt .deph h4{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    color: white;
+}
+.abt .deph figcaption{
+    display: flex;
+    width: 400px;
+    color: white;
+    font-size: 25px;
+}
+.abt .ach{
+    background-color: rgb(59, 59, 59);
+    border: solid;
+    width: 1259px;
+    margin: -8px;
+    padding-top: 50px;
+}
+.abt .ach h4{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    color: white;
+}
+.abt .ach p{
+    color: white;
+    font-size: 15px;
+}
+.abt .ach p{
+    display: flex;
+    color: white;
+    text-decoration: wavy;
+    font-size: 25px;
+}
+.foots{
+    background-color: black;
+    margin: -8px;
+    padding: 4px;
+}
+.foots footer p{
+    color: white;
+    font-size: 17px;
+    padding-left: 590px;
+}
